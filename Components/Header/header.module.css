@@ -1,0 +1,31 @@
+
+
+.header {
+  display: flex;
+  flex-direction: row;
+  justify-content: right;
+  width: 100%;
+  height: 2rem;
+  padding: 2rem;
+}
+
+.header button{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 .5rem;
+  outline: none;
+  border: none;
+  width: min-content;
+  height: min-content;
+  font-size: 34px;
+  color: #393939 ;
+  background-color: 
+  transparent;
+  cursor: pointer;
+}
+
+.header button :hover{
+  color: #4d4d4d;
+  border-radius: 5px;
+}
