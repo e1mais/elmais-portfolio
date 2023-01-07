@@ -1,0 +1,23 @@
+.roadmapItem{
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 1rem;
+  width: 100%;
+  font-size: small;
+  text-align: center;
+  margin-top: 4.8rem;
+  padding-left: 9rem;
+  line-height: 10px;
+}
+
+.container {
+  display: flex;
+  align-content: center;
+
+}
+
+.roadmap {
+  display: flex;
+  flex-direction: column;
+  align-self: flex-end;
+}
