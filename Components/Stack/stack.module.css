@@ -1,0 +1,41 @@
+.languages {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  font-size:10rem;
+  color: #fff;
+}
+
+.languagesContainer {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 1rem;
+  align-self: center;
+  justify-self: center;
+
+  text-align: center;
+}
+
+.languageCard:first-child {
+  color: yellow
+}
+
+.languageCard:nth-child(2) {
+  color: rgb(255, 60, 0)
+}
+
+.languageCard:nth-child(3) {
+  color: rgb(0, 255, 255)
+}
+
+.languageCard:nth-child(4) {
+  color: rgb(0, 225, 255)
+}
+
+.languageCard:nth-child(5) {
+  color: rgb(55, 0, 255)
+}
+
+.languageCard:nth-child(6) {
+  color: rgb(29, 183, 47)
+}
