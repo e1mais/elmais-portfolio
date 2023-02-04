@@ -9,9 +9,9 @@ import {
   faNodeJs
 } from '@fortawesome/free-brands-svg-icons'
 
-const languages = [
+export const languages = [
   {
-    name: 'Javascript',
+    name: 'JavaScript',
     level: 93,
     icon: faJs
   },
@@ -39,6 +39,11 @@ const languages = [
     name: 'NodeJS',
     level: 75,
     icon: faNodeJs
+  },
+  {
+    name: 'PostgreSQL',
+    level: 70,
+    icon: null
   }
 ]
 
