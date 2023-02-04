@@ -39,7 +39,9 @@ export default function Roadmap () {
               <strong>{value.achive}</strong>
               <p>{value.place}</p>
             </div>
-            <p>{value.date}</p>
+            <div className={styles.description}>
+              <p>{value.date}</p>
+            </div>
           </div>
         ))}
       </div>
