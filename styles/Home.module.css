@@ -173,3 +173,66 @@
   align-items: center;
   margin: 0 0 5rem 0;
 }
+
+.float {
+  position: absolute;
+}
+.heptagonLangs {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  grid-template-rows: repeat(6, 1fr);
+  width: calc(100vh + 9rem);
+  height: 100vh ;
+  text-align: center;
+  font-size: large;
+  font-weight: 600;
+  color: #fff;
+  gap: 1.5rem;
+}
+
+.NodeJS {
+  grid-column: 2 / 3;
+  grid-row: 1 / 2;
+  line-height: 1ch;
+}
+
+.React {
+  grid-column: 1 / 2;
+  grid-row: 3/ 4;
+  line-height: 0ch;
+}
+
+.HTML {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  grid-column: 1 / 2;
+  grid-row: 5 / 6;
+}
+
+.CSS {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  grid-column: 3 / 4;
+  grid-row: 6 / 7;
+}
+
+.PostgreSQL {
+  grid-column: 4 / 5;
+  grid-row: 1 / 2;
+  line-height: 1ch;
+}
+
+.Python {
+  grid-column: 5 / 6;
+  grid-row: 3 / 4;
+  line-height: 0ch;
+}
+
+.JavaScript {
+  display: flex;
+  align-items: center;
+  grid-column: 5 / 6;
+  grid-row: 5 / 6;
+}
