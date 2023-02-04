@@ -1,7 +1,7 @@
 import styles from '../styles/Home.module.css'
 import HeptagonLevelGraph from '../Components/HeptagonLevelGraph'
 import Roadmap from '../Components/Roadmap'
-import Languages from '../Components/Stack/index.js'
+import Languages, { languages } from '../Components/Stack/index.js'
 import Header from '../Components/Header'
 import Linkers from '../Components/Linkers'
 
@@ -49,8 +49,15 @@ export default function Home () {
             <h2>Stack</h2>
             <Languages />
             <div className={styles.langsCard} />
-            <HeptagonLevelGraph />
           </div>
+        </section>
+
+        <section>
+          <div className={styles.heptagonLangs}>
+            {languages.map((value, index) =>
+              <div key={index} className={styles[value.name]}>{value.name}</div>)}
+          </div>
+          <HeptagonLevelGraph className={styles.float} />
         </section>
       </main>
 
